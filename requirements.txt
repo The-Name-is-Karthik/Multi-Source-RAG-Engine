@@ -1,0 +1,17 @@
+streamlit
+langchain
+langchain-google-genai
+sentence-transformers
+faster-whisper
+chromadb
+tiktoken
+youtube-transcript-api
+yt-dlp
+pypdf
+python-docx
+beautifulsoup4
+pydub
+python-dotenv
+langchain-community
+ragas
+datasets

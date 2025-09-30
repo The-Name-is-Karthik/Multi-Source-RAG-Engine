@@ -1,0 +1,94 @@
+/* -------- Light Theme (default) -------- */
+:root {
+    --bg-color: linear-gradient(135deg, #f9f9fb, #eef2f7);
+    --text-color: #2d2d2d;
+    --bubble-user-bg: linear-gradient(135deg, #4f46e5, #6366f1);
+    --bubble-assistant-bg: #fff;
+    --bubble-assistant-border: #e5e7eb;
+    --sidebar-bg: rgba(255, 255, 255, 0.65);
+}
+
+/* -------- Dark Theme -------- */
+/* [data-theme="dark"] {
+    --bg-color: linear-gradient(135deg, #1717d4, #348f0e);
+    --text-color: #e5e7eb;
+    --bubble-user-bg: linear-gradient(135deg, #520c4d, #4f46e5);
+    --bubble-assistant-bg: #2d2d3f;
+    --bubble-assistant-border: #444;
+    --sidebar-bg: rgba(30, 30, 45, 0.75);
+} */
+
+/* -------- Global Styling -------- */
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: var(--sidebar-bg) !important;
+    backdrop-filter: blur(12px) !important;
+    border-right: 1px solid rgba(200,200,200,0.2);
+}
+
+/* Chat Bubbles */
+.chat-bubble {
+    padding: 1rem 1.2rem;
+    border-radius: 1rem;
+    margin: 0.5rem 0;
+    max-width: 85%;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    animation: fadeIn 0.3s ease-in-out;
+}
+.chat-user {
+    background: var(--bubble-user-bg);
+    color: white;
+    margin-left: auto;
+}
+.chat-assistant {
+    background: var(--bubble-assistant-bg);
+    border: 1px solid var(--bubble-assistant-border);
+    margin-right: auto;
+}
+
+/* Buttons */
+div.stButton > button {
+    background: linear-gradient(135deg, #6366f1, #4f46e5);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0.6rem 1.2rem;
+    font-weight: 500;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+div.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(99,102,241,0.3);
+}
+
+/* Suggested Questions */
+.suggested-btn {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.suggested-btn:hover {
+    background: #f3f4f6;
+    transform: scale(1.02);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+}

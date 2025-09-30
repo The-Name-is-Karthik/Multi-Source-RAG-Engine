@@ -1,0 +1,13 @@
+What I Worked On
+
+February 2021
+
+Before college the two main things I worked on, outside of school, were writing and programming. I didn't write essays. I wrote what beginning writers were supposed to write then, and probably still are: short stories. My stories were awful. They had hardly any plot, just characters with strong feelings, which I imagined made them deep.
+
+I was influenced by nineteenth-century Russian writers. I read them in translation, but I had the sense that the originals were not merely better but different. That feeling of reading a translation is one I've had many times. It's like watching a movie with subtitles. You're not getting the real thing. But you can tell the real thing is great, and you can see why it's great in a general way. What you can't quite see is the fine detail. What I learned from the Russians, at one remove, was that it was possible to be serious. I didn't know yet how to be serious myself, but I could see that they were.
+
+Programming was the opposite. I was in awe of the seriousness of Russian writers, but I wasn't in awe of computers. I knew them from the inside. I was an expert on them. I'd started programming on a TRS-80 Model I in 9th grade, and by the time I was in college I'd written a lot of software, including a popular drawing program for the Apple II and a Lisp interpreter.
+
+I wrote a lot of essays in college. The first few were clumsy and pretentious, like my short stories. But I could feel myself getting better. I was learning how to be serious. I knew that what I was writing was still not very good, but I also knew, from programming, that it was possible to get better. If you wrote a program and it had bugs, you didn't give up. You fixed them. The same, I began to realize, was true of writing. If you wrote a sentence and it was clunky, you could fix it. You could probably fix anything. You just had to be willing to work at it.
+
+So that was what I did. I worked at it. I wrote and I programmed, and I learned from both. I learned that the best way to get good at something is to do it a lot. I learned that it's important to be willing to fail, because that's the only way you learn. And I learned that you have to be willing to work hard, because that's the only way you get good.
