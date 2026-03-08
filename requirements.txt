@@ -1,5 +1,6 @@
 streamlit
 langchain
+langchain-classic
 langchain-google-genai
 sentence-transformers
 faster-whisper
@@ -15,3 +16,4 @@ python-dotenv
 langchain-community
 ragas
 datasets
+langchain-text-splitters==1.1.1

@@ -18,7 +18,7 @@ import os
 import re
 import hashlib
 import logging
-from langchain.schema.document import Document
+from langchain_core.documents import Document                         #changed
 from langchain_core.messages import AIMessage, HumanMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 
@@ -26,6 +26,7 @@ from src.config import GEMINI_API_KEY, GEMINI_MODEL_NAME
 from src.video_processor import get_video_transcript
 from src.data_loader import load_from_webpage, load_from_pdf, load_from_docx
 from src.vector_store import create_vector_store
+
 from src.rag_pipeline import create_rag_chain
 
 # --- Page Configuration ---

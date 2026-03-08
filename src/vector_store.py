@@ -3,8 +3,8 @@ from typing import List
 import streamlit as st
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import SentenceTransformerEmbeddings
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.schema.document import Document
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_core.documents import Document                         #changed
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s -%(filename)s - %(message)s')
 

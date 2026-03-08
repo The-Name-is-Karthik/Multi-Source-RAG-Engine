@@ -1,7 +1,7 @@
 import logging
 import streamlit as st
 from langchain_community.document_loaders import WebBaseLoader, PyPDFLoader, Docx2txtLoader
-from langchain.schema.document import Document
+from langchain_core.documents import Document                         #changed
 from typing import List
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
