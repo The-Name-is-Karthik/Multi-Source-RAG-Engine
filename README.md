@@ -127,9 +127,9 @@ If you have a suggestion that would make this better, please fork the repo and c
 5\.  Open a Pull Request
 
 
-<div align="center">
+<!-- <div align="center">
 Made with ❤️ by Karthik
-</div>
+</div> -->
 
 
 
